@@ -1,7 +1,7 @@
 # Roboger
 #### By _**Mark Courtney**_
 #### _This is my first from scratch interactive html page that gets input from the user to output a specific outcome._
-https://genecourtney7.github.io/ /
+https://genecourtney7.github.io/3rd.code.review/
 ## Technologies used
 * _HTML_
 * _CSS_
@@ -46,7 +46,7 @@ https://genecourtney7.github.io/ /
 
     Test: "It should replace all numbers that contain "3" with "Won't you be my neighbor?""
 
-    Code: replaceThrees();
+    Code: replaceThrees([0,1,2,3,13,23]);
 
     Expected Output: [0,1,2,"Won't you be my neighbor?"]
     
