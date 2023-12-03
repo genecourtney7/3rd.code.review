@@ -32,7 +32,7 @@ https://genecourtney7.github.io/3rd.code.review/
 
     Code: replaceOnes([0,1]);
 
-    Expected Output: [0,"beep!"]
+    Expected Output: [0,"beep"]
 
 * Describe: replaceTwos()
 
@@ -40,15 +40,15 @@ https://genecourtney7.github.io/3rd.code.review/
 
     Code: replaceTwos([0,1,2]);
 
-    Expected Output: [0,1,"boop!"]
+    Expected Output: [0,"beep","boop"]
 
 * Describe: replaceThrees()
 
     Test: "It should replace all numbers that contain "3" with "Won't you be my neighbor?""
 
-    Code: replaceThrees([0,1,2,3,13,23]);
+    Code: replaceThrees([0,1,2,3]);
 
-    Expected Output: [0,1,2,"Won't you be my neighbor?"]
+    Expected Output: [0,"beep","boop","Won't you be my neighbor?"]
     
 ## Known Bugs
 * No known Bugs
